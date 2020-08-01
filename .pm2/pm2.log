@@ -1,0 +1,26 @@
+2020-08-01T01:29:08: PM2 log: ===============================================================================
+2020-08-01T01:29:08: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-08-01T01:29:08: PM2 log: Time                 : Sat Aug 01 2020 01:29:08 GMT+0000 (Coordinated Universal Time)
+2020-08-01T01:29:08: PM2 log: PM2 version          : 4.4.0
+2020-08-01T01:29:08: PM2 log: Node.js version      : 14.7.0
+2020-08-01T01:29:08: PM2 log: Current arch         : x64
+2020-08-01T01:29:08: PM2 log: PM2 home             : /home/ubuntu/.pm2
+2020-08-01T01:29:08: PM2 log: PM2 PID file         : /home/ubuntu/.pm2/pm2.pid
+2020-08-01T01:29:08: PM2 log: RPC socket file      : /home/ubuntu/.pm2/rpc.sock
+2020-08-01T01:29:08: PM2 log: BUS socket file      : /home/ubuntu/.pm2/pub.sock
+2020-08-01T01:29:08: PM2 log: Application log path : /home/ubuntu/.pm2/logs
+2020-08-01T01:29:08: PM2 log: Worker Interval      : 30000
+2020-08-01T01:29:08: PM2 log: Process dump file    : /home/ubuntu/.pm2/dump.pm2
+2020-08-01T01:29:08: PM2 log: Concurrent actions   : 2
+2020-08-01T01:29:08: PM2 log: SIGTERM timeout      : 1600
+2020-08-01T01:29:08: PM2 log: ===============================================================================
+2020-08-01T01:29:08: PM2 log: App [server:0] starting in -fork mode-
+2020-08-01T01:29:08: PM2 log: App [server:0] online
+2020-08-01T01:34:25: PM2 log: Stopping app:server id:0
+2020-08-01T01:34:25: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2020-08-01T01:34:25: PM2 log: pid=5022 msg=process killed
+2020-08-01T01:35:02: PM2 log: App [server:0] starting in -fork mode-
+2020-08-01T01:35:02: PM2 log: App [server:0] online
+2020-08-01T01:42:03: PM2 log: Stopping app:server id:0
+2020-08-01T01:42:03: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2020-08-01T01:42:03: PM2 log: pid=5230 msg=process killed

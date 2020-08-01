@@ -1,0 +1,8 @@
+(node:6726) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+App is listening at http://localhost:5000
+DB connected!
+{ id: '1' }
+{ id: '1' }
+{ id: '1' }
+{ id: '1' }

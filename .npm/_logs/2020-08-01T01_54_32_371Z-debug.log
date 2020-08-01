@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'populate' ]
+2 info using npm@6.14.7
+3 info using node@v14.7.0
+4 verbose run-script [ 'prepopulate', 'populate', 'postpopulate' ]
+5 info lifecycle suggested-module@1.0.0~prepopulate: suggested-module@1.0.0
+6 info lifecycle suggested-module@1.0.0~populate: suggested-module@1.0.0
+7 verbose lifecycle suggested-module@1.0.0~populate: unsafe-perm in lifecycle true
+8 verbose lifecycle suggested-module@1.0.0~populate: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/ubuntu/suggested-module/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle suggested-module@1.0.0~populate: CWD: /home/ubuntu/suggested-module
+10 silly lifecycle suggested-module@1.0.0~populate: Args: [ '-c', 'node scripts/script.js' ]
+11 silly lifecycle suggested-module@1.0.0~populate: Returned: code: 1  signal: null
+12 info lifecycle suggested-module@1.0.0~populate: Failed to exec populate script
+13 verbose stack Error: suggested-module@1.0.0 populate: `node scripts/script.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:314:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:314:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1051:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+14 verbose pkgid suggested-module@1.0.0
+15 verbose cwd /home/ubuntu/suggested-module/db
+16 verbose Linux 5.3.0-1023-aws
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "populate"
+18 verbose node v14.7.0
+19 verbose npm  v6.14.7
+20 error code ELIFECYCLE
+21 error errno 1
+22 error suggested-module@1.0.0 populate: `node scripts/script.js`
+22 error Exit status 1
+23 error Failed at the suggested-module@1.0.0 populate script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

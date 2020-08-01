@@ -1,0 +1,22 @@
+(node:6516) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> https://ikheraj17.github.io/reviews_module_shmetsy/
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:9000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:9000
+listening on port 7000
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:4200
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:5000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:9000
+[HPM] Proxy created: /  -> http://ec2-52-53-175-251.us-west-1.compute.amazonaws.com:9000
+listening on port 7000
